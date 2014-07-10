@@ -161,6 +161,7 @@
                 </executions>
             </plugin>
 			
+			<!-- dex -->
 			<plugin> 
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
@@ -174,7 +175,7 @@
                         </goals> 
                     </execution> 
                 </executions> 
-            </plugin>
+            </plugin>			
 			
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
@@ -188,9 +189,11 @@
 				<configuration>
 					<formats>
 						<format>xml</format>
+						<format>html</format>
 					</formats>
 				</configuration>
 			</plugin>
+			<!-- dexxxx -->
         </plugins>
     </build>
 	
